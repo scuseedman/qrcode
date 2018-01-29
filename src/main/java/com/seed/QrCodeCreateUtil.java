@@ -146,7 +146,7 @@ public class QrCodeCreateUtil {
      */
     public static void main(String[] args) throws IOException, WriterException {  
         
-        createQrCode(new FileOutputStream(new File("d:\\qrcode.jpg")),"张飞牛肉2018012922288",900,"JPEG");
-        readQrCode(new FileInputStream(new File("d:\\qrcode.jpg")));
+//        createQrCode(new FileOutputStream(new File("d:\\qrcode.jpg")),"张飞牛肉2018012922288",900,"JPEG");
+        readQrCode(new FileInputStream(new File("20180129225812.jpg")));
     }  
 }
